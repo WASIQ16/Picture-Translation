@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" >
+
+        <item android:id="@+id/nav_share"
+            android:title="Share App"
+            android:icon="@drawable/share_black"/>
+
+        <item android:id="@+id/nav_rate"
+            android:title="Rate Us"
+            android:icon="@drawable/star_black"/>
+
+        <item android:id="@+id/nav_privacy"
+            android:title="Privacy Policy"
+            android:icon="@drawable/privacy_black"/>
+
+
+    </group>
+</menu>
